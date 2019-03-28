@@ -4,7 +4,6 @@ def hello(array)
   i = 0
   collec = []
   while i < array.length
-    binding.pry
     colletion << yield(array[i])
     i += 1
   end
