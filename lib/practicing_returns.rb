@@ -2,7 +2,7 @@ require 'pry'
 
 def hello(array)
   i = 0
-  collec = []
+  collection = []
   while i < array.length
     colletion << yield(array[i])
     i += 1
